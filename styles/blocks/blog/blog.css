@@ -1,0 +1,10 @@
+@import './__container/blog__container.css';
+@import './__title/blog__title.css';
+@import './__subtitle/blog__subtitle.css';
+@import './__button/blog__button.css';
+@import './__image-1/blog__image-1.css';
+@import './__image-2/blog__image-2.css';
+
+.blog {
+    background-color: #f6f4f4;
+}

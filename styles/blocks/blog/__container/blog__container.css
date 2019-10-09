@@ -1,0 +1,14 @@
+.blog__container {
+    max-width: 1150px;
+    padding: 0 5px 0 5px;
+    margin: auto;
+    min-height: 670px;
+    display: flex;
+    align-items: center;
+    background-image: url(../../../../images/Vector_Smart_Object.png);
+    background-repeat: no-repeat;
+    background-size: 82%;
+    background-position: center 20px;
+    position: relative;
+   
+}

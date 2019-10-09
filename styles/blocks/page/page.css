@@ -1,0 +1,9 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+.page {
+    overflow-x: hidden;
+}

@@ -1,0 +1,15 @@
+@import './__container/journal__container.css';
+@import './__title/journal__title.css';
+@import './__cards/journal__cards.css';
+@import './__card/journal__card.css';
+@import './__card-object/journal__card-object.css';
+@import './__card-title/journal__card-title.css';
+@import './__card-subtitle/journal__card-subtitle.css';
+@import './__card-text/journal__card-text.css';
+@import './__card-digit/journal__card-digit.css';
+
+.journal {
+    display: flex;
+    justify-content: center;
+    min-height: 1060px;
+}

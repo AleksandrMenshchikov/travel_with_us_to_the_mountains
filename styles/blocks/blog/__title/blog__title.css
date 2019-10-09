@@ -1,0 +1,10 @@
+.blog__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2c2e37;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}

@@ -3,8 +3,12 @@
 @import '../blocks/container/container.css';
 @import '../blocks/nav/nav.css';
 @import '../blocks/logo/logo.css';
+@import '../blocks/main/main.css';
+@import '../blocks/blog/blog.css';
+@import '../blocks/journal/journal.css';
+@import '../blocks/offer/offer.css';
 
 
-*, ::after, ::before {
-    box-sizing: border-box;
-}
+
+
+

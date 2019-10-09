@@ -1,0 +1,14 @@
+@import './__object-1/offer__object-1.css';
+@import './__object-2/offer__object-2.css';
+@import './__container/offer__container.css';
+@import './__title/offer__title.css';
+
+.offer {
+    width: 100%;
+    min-height: 650px;
+    background-image: url(../../../images/Rectangle_53.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}

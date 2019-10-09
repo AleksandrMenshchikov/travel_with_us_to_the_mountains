@@ -1,0 +1,74 @@
+.journal__card {
+    width: 380px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;   
+}
+
+.journal__card:first-of-type {
+    background-image: url(../../../../images/Layer_50.jpg);
+    background-position: left top;
+    background-size: 100%;
+    transition: background-size 1s ease-in-out;
+}
+
+.journal__card:first-of-type:hover {
+    background-size: 110%;
+}
+
+.journal__card:nth-of-type(2) {
+    background-color: #ffffff;
+}
+
+.journal__card:nth-of-type(2)::after {
+    display: block;
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: -24px; top: 15%; /* Положение треугольника */
+    border: 12px solid transparent; /* Прозрачные границы */
+    border-right: 12px solid #ffffff; /* Добавляем треугольник */
+}
+
+.journal__card:nth-of-type(3) {
+    background-image: url(../../../../images/Layer_49.jpg);
+    background-position: left top;
+    background-size: 100%;
+    transition: background-size 1s ease-in-out;
+}
+
+.journal__card:nth-of-type(3):hover {
+    background-size: 110%;
+}
+
+.journal__card:nth-of-type(4)::after {
+    display: block;
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    right: -24px; top: 15%; /* Положение треугольника */
+    border: 12px solid transparent; /* Прозрачные границы */
+    border-left: 12px solid #ffffff; /* Добавляем треугольник */
+    z-index: 2;
+}
+
+.journal__card:nth-of-type(5) {
+    background-image: url(../../../../images/Layer_48.jpg);
+    background-position: left top;
+    background-size: 100%;
+    transition: background-size 1s ease-in-out;
+}
+
+.journal__card:nth-of-type(5):hover {
+    background-size: 110%;
+}
+
+.journal__card:nth-of-type(6)::after {
+    display: block;
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 15%; top: -24px; /* Положение треугольника */
+    border: 12px solid transparent; /* Прозрачные границы */
+    border-bottom: 12px solid #ffffff; /* Добавляем треугольник */
+   
+}

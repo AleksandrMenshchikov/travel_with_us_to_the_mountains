@@ -1,0 +1,6 @@
+.blog__image-2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 130px;
+    right: -210px;
+}

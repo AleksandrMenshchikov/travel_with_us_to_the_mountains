@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Bringin';
+    font-family: 'Bringin', sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url("./Bringin.woff2") format("woff2"),
@@ -10,7 +10,7 @@
 
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url("./OpenSans-Regular.woff2") format("woff2"),
@@ -20,7 +20,7 @@
 }
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url("./OpenSans-Bold.woff2") format("woff2"),
@@ -30,7 +30,7 @@
 }
 
 @font-face {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url("./Raleway-Bold.woff2") format("woff2"),

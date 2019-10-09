@@ -1,0 +1,21 @@
+.header__link-order {
+    display: inline-block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #36aeea;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 75px 20px 75px;
+    margin: 27px 0 0 35px;
+    font-size: 14px;
+    transition: all 0.1s ease-in-out;
+}
+
+.header__link-order:hover {
+    background-color: #ffffff;
+    color: #36aeea;
+}

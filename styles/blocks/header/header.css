@@ -1,5 +1,8 @@
 @import './__content/header__content.css';
 @import './__container/header__container.css';
+@import './__image/header__image.css';
+@import './__subtitle/header__subtitle.css';
+@import './__link-order/header__link-order.css';
 
 .header {
     width: 100%;
