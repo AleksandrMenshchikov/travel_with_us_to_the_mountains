@@ -2,6 +2,9 @@
 @import './__object-2/offer__object-2.css';
 @import './__container/offer__container.css';
 @import './__title/offer__title.css';
+@import './__subtitle/offer__subtitle.css';
+@import './__lock/offer__lock.css';
+@import './__warning/offer__warning.css';
 
 .offer {
     width: 100%;

@@ -1,0 +1,12 @@
+@import './__name/form__name.css';
+@import './__phone/form__phone.css';
+@import './__submit/form__submit.css';
+
+.form {
+    height: 60px;
+    width: 861px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}

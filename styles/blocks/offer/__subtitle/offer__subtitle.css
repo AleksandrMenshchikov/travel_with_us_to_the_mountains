@@ -1,0 +1,9 @@
+.offer__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #949494;
+    line-height: calc(26 / 16);
+    margin: 25px 0;
+}

@@ -8,7 +8,6 @@
     min-height: 90px;
     background-color: rgba(255, 255, 255, 0.3);
     display: flex;
-    position: fixed;
     justify-content: center;
     z-index: 5;
 }

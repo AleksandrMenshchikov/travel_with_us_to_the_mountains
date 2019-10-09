@@ -1,0 +1,14 @@
+.form__phone {
+    width: 330px;
+    height: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2c2e37;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    border-left: 1px solid #2c2e37;
+    border-color: #ebebeb;
+}

@@ -11,9 +11,9 @@
     background-color: #36aeea;
     padding: 13px 25px 13px 25px;
     letter-spacing: 1.2px;
-    transition: all 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
 }
 
 .blog__button:hover {
-    background-color: #2c2e37;
+    opacity: 0.7;
 }
