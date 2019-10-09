@@ -1,0 +1,21 @@
+.nav__link-call {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    border: 3px solid #36aeea;
+    color: #36aeea;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 15px 42px 15px 42px;
+    transition: all 0.1s ease-in-out;
+    border-radius: 4px;
+    letter-spacing: 1.6px;
+}
+
+.nav__link-call:hover {
+    background-color: #36aeea;
+    color: #ffffff;
+}
+

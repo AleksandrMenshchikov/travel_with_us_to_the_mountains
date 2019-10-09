@@ -1,0 +1,11 @@
+@import './__content/header__content.css';
+@import './__container/header__container.css';
+
+.header {
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../../../images/15042304012_74fcf85e2e_k\ copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

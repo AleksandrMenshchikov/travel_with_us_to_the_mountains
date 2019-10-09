@@ -1,0 +1,30 @@
+.header__container {
+    border: solid #ffffff;
+    border-width: 0px 3px 3px;
+    position: relative;
+    width: 1140px;
+    height: 323px;
+  }
+  
+
+.header__container::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 737px;
+    height: 3px;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+}
+
+.header__container::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color: #ffffff;
+    right: 0;
+    top: 0;
+}

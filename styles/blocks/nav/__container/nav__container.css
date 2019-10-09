@@ -1,0 +1,7 @@
+.nav__container {
+    width: 1150px;
+    padding: 0 5px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

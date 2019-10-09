@@ -1,0 +1,13 @@
+@import './__container/nav__container.css';
+@import './__link/nav__link.css';
+@import './__link-call/nav__link-call.css';
+@import './__link-container/nav__link-container.css';
+
+.nav {
+    width: 100%;
+    min-height: 90px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
