@@ -1,0 +1,20 @@
+@import './__map/travel__map.css';
+@import './__container/travel__container.css';
+@import './__title/travel__title.css';
+@import './__cards/travel__cards.css';
+@import './__card/travel__card.css';
+@import './__stars/travel__stars.css';
+@import './__subtitle/travel__subtitle.css';
+@import './__text/travel__text.css';
+@import './__price-first/travel__price-first.css';
+@import './__price-second/travel__price-second.css';
+
+
+.travel {
+    min-height: 1020px;
+    background-image: url(../../../images/Group_65.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}

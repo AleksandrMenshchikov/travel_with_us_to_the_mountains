@@ -1,0 +1,70 @@
+.travel__card {
+    text-decoration: none;
+    width: 206px;
+    height: 386px;
+    background-image: url(../../../../images/Layer_108.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 6px;
+    z-index: 1;
+    position: relative;
+    border: 3px solid transparent;
+    transition: all 0.1s ease-out;
+}
+
+.travel__card:nth-of-type(n):hover {
+    border: 3px solid #2c2e37;
+}
+
+.travel__card:nth-of-type(2) {
+    text-decoration: none;
+    width: 206px;
+    height: 386px;
+    background-image: url(../../../../images/Layer_109.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 6px;
+    z-index: 1;
+    position: relative;
+}
+
+.travel__card:nth-of-type(3) {
+    text-decoration: none;
+    width: 206px;
+    height: 386px;
+    background-image: url(../../../../images/Layer_111.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 6px;
+    z-index: 1;
+    position: relative;
+}
+
+.travel__card:nth-of-type(4) {
+    text-decoration: none;
+    width: 206px;
+    height: 386px;
+    background-image: url(../../../../images/Layer_116.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 6px;
+    z-index: 1;
+    position: relative;
+}
+
+.travel__card:nth-of-type(5) {
+    text-decoration: none;
+    width: 206px;
+    height: 386px;
+    background-image: url(../../../../images/Layer_117.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 6px;
+    z-index: 1;
+    position: relative;
+}
