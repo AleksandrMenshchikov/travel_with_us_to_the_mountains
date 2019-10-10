@@ -1,0 +1,26 @@
+.scheme__line-long {
+    position: absolute;
+    width: 230px;
+    height: 4px;
+    top: 22px;
+    z-index: -1;
+    left: 185px;
+}
+
+.scheme__line-long:nth-last-of-type(2) {
+    position: absolute;
+    width: 230px;
+    height: 4px;
+    top: 22px;
+    z-index: -1;
+    left: 455px;
+}
+
+.scheme__line-long:nth-last-of-type(3) {
+    position: absolute;
+    width: 230px;
+    height: 4px;
+    top: 22px;
+    z-index: -1;
+    left: 727px;
+}

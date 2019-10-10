@@ -1,0 +1,10 @@
+.scheme__text {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    color: #949494;
+}

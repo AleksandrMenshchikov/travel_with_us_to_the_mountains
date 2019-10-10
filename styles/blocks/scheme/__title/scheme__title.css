@@ -1,0 +1,10 @@
+.scheme__title {
+    text-transform: uppercase;
+    margin: 110px auto 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}

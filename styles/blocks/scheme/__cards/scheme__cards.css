@@ -1,0 +1,6 @@
+.scheme__cards {
+    margin: 70px auto 100px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}

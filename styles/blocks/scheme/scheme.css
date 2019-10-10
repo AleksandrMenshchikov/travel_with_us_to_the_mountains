@@ -1,0 +1,17 @@
+@import './__container/scheme__container.css';
+@import './__title/scheme__title.css';
+@import './__cards/scheme__cards.css';
+@import './__card/scheme__card.css';
+@import './__circle/scheme__circle.css';
+@import './__line/scheme__line.css';
+@import './__circle-big/scheme__circle-big.css';
+@import './__polygon/scheme__polygon.css';
+@import './__subtitle/scheme__subtitle.css';
+@import './__text/scheme__text.css';
+@import './__line-long/scheme__line-long.css';
+
+.scheme {
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+}
