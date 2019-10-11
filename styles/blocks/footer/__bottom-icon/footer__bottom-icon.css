@@ -1,0 +1,18 @@
+.footer__bottom-icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+    
+}
+
+.footer__bottom-icon svg {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+.footer__bottom-icon:hover {
+    opacity: 0.7;
+}

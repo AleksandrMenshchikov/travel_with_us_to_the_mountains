@@ -1,0 +1,15 @@
+@import './__container/logos__container.css';
+@import './__image/logos__image.css';
+
+.logos {
+    min-height: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #f8f9fa;
+    position: relative;
+}
+

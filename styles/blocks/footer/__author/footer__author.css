@@ -1,0 +1,10 @@
+.footer__author {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #36aeea;
+    vertical-align: 150%;
+    margin-left: 15px;
+}

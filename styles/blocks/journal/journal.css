@@ -9,7 +9,11 @@
 @import './__card-digit/journal__card-digit.css';
 
 .journal {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     min-height: 1060px;
 }

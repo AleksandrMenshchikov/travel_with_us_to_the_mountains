@@ -1,0 +1,22 @@
+.footer__form {
+    margin: 130px auto 165px;
+    max-width: 515px;
+    min-height: 500px;
+    background-image: url(../../../../images/Layer_47.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 8px;
+}
+
+.footer__form::after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}

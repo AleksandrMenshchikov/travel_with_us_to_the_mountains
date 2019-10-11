@@ -1,0 +1,13 @@
+.footer__title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #2c2e37;
+    padding: 110px 0 85px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+

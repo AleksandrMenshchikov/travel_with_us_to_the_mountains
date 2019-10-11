@@ -1,18 +1,39 @@
-@keyframes scale {
+@-webkit-keyframes scale {
     50% {
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
 
     75% {
-        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+                transform: scale(1.05);
     }
 
     100% {
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+@keyframes scale {
+    50% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+
+    75% {
+        -webkit-transform: scale(1.05);
+                transform: scale(1.05);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
 }
 
 .header__image {
     padding: 40px 0 0 35px;
-    animation: scale 6s linear infinite;
+    -webkit-animation: scale 6s linear infinite;
+            animation: scale 6s linear infinite;
 }

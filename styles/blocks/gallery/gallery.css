@@ -1,0 +1,14 @@
+@import './__container/gallery__container.css';
+@import './__title/gallery__title.css';
+@import './__cards/gallery__cards.css';
+@import './__card/gallery__card.css';
+@import './__image/gallery__image.css';
+
+.gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}

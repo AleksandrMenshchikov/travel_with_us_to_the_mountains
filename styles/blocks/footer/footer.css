@@ -1,0 +1,33 @@
+@import './__container/footer__container.css';
+@import './__title/footer__title.css';
+@import './__feedback/footer__feedback.css';
+@import './__feedback-item/footer__feedback-item.css';
+@import './__quote/footer__quote.css';
+@import './__text/footer__text.css';
+@import './__image/footer__image.css';
+@import './__author/footer__author.css';
+@import './__author-mode/footer__author-mode.css';
+@import './__form/footer__form.css';
+@import './__form-title/footer__form-title.css';
+@import './__form-subtitle/footer__form-subtitle.css';
+@import './__form-input/footer__form-input.css';
+@import './__form-submit/footer__form-submit.css';
+@import './__bottom/footer__bottom.css';
+@import './__bottom-left/footer__bottom-left.css';
+@import './__bottom-icons/footer__bottom-icons.css';
+@import './__bottom-right/footer__bottom-right.css';
+@import './__bottom-icon/footer__bottom-icon.css';
+
+.footer {
+    min-height: 1360px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: url('../../../images/footer-bg.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}

@@ -1,0 +1,7 @@
+.gallery__cards {
+    display: grid;
+    grid-template-columns: 260px 360px 460px;
+    grid-template-rows: 245px 70px 280px;
+    grid-gap: 30px;
+    margin-bottom: 80px;
+}

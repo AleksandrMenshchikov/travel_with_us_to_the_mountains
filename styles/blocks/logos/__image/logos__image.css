@@ -1,0 +1,33 @@
+.logos__image:nth-of-type(n)  {
+    width: 100px;
+    -webkit-filter: brightness(0) invert(0.7);
+            filter: brightness(0) invert(0.7);
+    -webkit-transition: -webkit-filter 0.1s ease-in-out;
+    transition: -webkit-filter 0.1s ease-in-out;
+    transition: filter 0.1s ease-in-out;
+    transition: filter 0.1s ease-in-out, -webkit-filter 0.1s ease-in-out;
+}
+
+.logos__image:nth-of-type(n):hover  {
+    width: 100px;
+    -webkit-filter: none;
+            filter: none;
+}
+
+
+.logos__image:nth-of-type(n) img {
+    width: 100%;
+    height: 100%;
+}
+
+.logos__image:nth-of-type(2) img {
+    width: 50%;
+}
+
+.logos__image:nth-of-type(4) img {
+    width: 50%;
+}
+
+.logos__image:nth-of-type(6) img {
+    width: 90%;
+}
