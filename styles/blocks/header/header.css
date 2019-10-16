@@ -6,9 +6,16 @@
 
 .header {
     width: 100%;
-    min-height: 700px;
+    height: 700px;
     background-image: url(../../../images/15042304012_74fcf85e2e_k\ copy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 1023px) {
+    .header {
+        height: 500px;
+    }
+}
+

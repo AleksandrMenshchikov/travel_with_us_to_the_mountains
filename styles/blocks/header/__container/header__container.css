@@ -1,10 +1,11 @@
 .header__container {
+    margin: 0 auto;
     border: solid #ffffff;
     border-width: 0px 3px 3px;
     position: relative;
-    width: 1140px;
+    max-width: 1140px;
     height: 323px;
-  }
+}
   
 
 .header__container::before {
@@ -27,4 +28,22 @@
     background-color: #ffffff;
     right: 0;
     top: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .header__container::before {
+        width: 650px;
+    }
+    .header__container::after {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__container::before {
+        width: 521px;
+    }
+    .header__container::after {
+        width: 110px;
+    }
 }
