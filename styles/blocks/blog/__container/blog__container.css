@@ -1,6 +1,6 @@
 .blog__container {
-    max-width: 1150px;
-    padding: 0 5px 0 5px;
+    max-width: 1200px;
+    padding: 0 30px 0 30px;
     margin: auto;
     min-height: 670px;
     display: -webkit-box;
@@ -14,4 +14,11 @@
     background-size: 82%;
     background-position: center 20px;
     position: relative;
+}
+
+
+@media screen and (max-width: 767px) {
+    .blog__container {
+        padding: 0 15px 0 15px;
+    }
 }
