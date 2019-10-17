@@ -12,7 +12,7 @@
     content: "";
     position: absolute;
     display: block;
-    width: 737px;
+    width: 738px;
     height: 3px;
     background-color: #ffffff;
     top: 0;
@@ -23,7 +23,7 @@
     content: "";
     position: absolute;
     display: block;
-    width: 200px;
+    width: 199px;
     height: 3px;
     background-color: #ffffff;
     right: 0;
@@ -31,19 +31,13 @@
 }
 
 @media screen and (max-width: 1279px) {
+    .header__container {
+        border: none;
+    }
     .header__container::before {
-        width: 650px;
+        width: 0;
     }
     .header__container::after {
-        width: 110px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .header__container::before {
-        width: 521px;
-    }
-    .header__container::after {
-        width: 110px;
+        width: 0;
     }
 }

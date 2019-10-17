@@ -1,0 +1,10 @@
+.burger__item {
+    width: 30px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #36AEEA;
+}
+
+.burger__item:last-of-type {
+    margin-bottom: 0;
+}

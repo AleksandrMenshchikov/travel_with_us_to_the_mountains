@@ -20,3 +20,16 @@
     background-color: #ffffff;
     color: #36aeea;
 }
+
+@media screen and (max-width: 1023px) {
+    .header__link-order {
+        margin: 27px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__link-order {
+        padding: 20px 35px 20px 35px;
+        margin-top: 47px;
+    }
+}

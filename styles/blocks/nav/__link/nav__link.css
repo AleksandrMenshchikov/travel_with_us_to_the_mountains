@@ -5,7 +5,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #9daeb6;
-    margin-right: 22px;
+    margin-right: 11px;
     -webkit-transition: border-bottom 0.1s ease-in-out;
     transition: border-bottom 0.1s ease-in-out;
     font-size: 12px;
@@ -19,3 +19,16 @@
 .nav__link:hover {
     border-bottom: 2px solid #36aeea;
 }
+
+@media screen and (max-width: 1023px) {
+    .nav__link {
+      display: block;
+      color: #36aeea;
+      margin: 10px 30px 10px 10px;
+      font-size: 14px;
+    }
+    .nav__link:last-of-type {
+        margin-right: 30px;
+    }
+}
+

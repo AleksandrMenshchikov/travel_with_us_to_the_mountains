@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/vendor/normalize.css">
     <link rel="stylesheet" href="./styles/fonts/fonts.css">
     <link rel="stylesheet" href="./styles/pages/index.css">
+    <script src="./scripts/script.js"></script>
     <title>Travel with us to the mountains</title>
 </head>
 <body class="page">
@@ -16,8 +17,13 @@
     <header class="header">
             <nav class="nav">
                 <div class="nav__container">
+                    <div class="burger" id="burger" onclick="myFunction()">
+                        <div class="burger__item"></div>
+                        <div class="burger__item"></div>
+                        <div class="burger__item"></div>
+                    </div>
                     <a class="logo" href="#"><img src="./images/mountains.png" alt="Logo"></a>
-                    <div class="nav__link-container">
+                    <div class="nav__link-container" id="nav__link-container">
                         <a href="#" class="nav__link">our story</a>
                         <a href="#" class="nav__link">services</a>
                         <a href="#" class="nav__link">work</a>

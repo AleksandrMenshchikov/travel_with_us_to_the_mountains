@@ -37,3 +37,12 @@
     -webkit-animation: scale 6s linear infinite;
             animation: scale 6s linear infinite;
 }
+
+@media screen and (max-width: 1023px) {
+    .header__image {
+        width: 60%;
+        padding: 40px 0 0 0;
+        -webkit-animation: scale 6s linear infinite;
+                animation: scale 6s linear infinite;
+    }
+}

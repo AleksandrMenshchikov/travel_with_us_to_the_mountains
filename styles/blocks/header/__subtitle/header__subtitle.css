@@ -8,3 +8,9 @@
     max-width: 465px;
     margin: 10px 0 0 35px;
 }
+
+@media screen and (max-width: 1023px) {
+    .header__subtitle {
+        margin: 10px 0 0 0;
+    }
+}
